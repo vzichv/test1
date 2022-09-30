@@ -2,7 +2,7 @@
   "name": "test-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/vzichv/test1",
+  "homepage": "https://vzichv.github.io/test1/",
   "dependencies": {
     "classnames": "^2.3.2",
     "gh-pages": "^4.0.0",
