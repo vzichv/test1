@@ -1,0 +1,12 @@
+.header {
+  font-family: 'Nekst';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 90%;
+  color: #111111;
+
+  @media screen and (max-width: 320px) {
+    font-size: 34px;
+  }
+}

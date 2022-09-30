@@ -1,0 +1,26 @@
+.prompt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 70px;
+  height: 54px;
+
+  font-family: 'Nekst';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #575757;
+
+  border-radius: 16px;
+
+  @media screen and (max-width: 320px) {
+    width: 67px;
+    height: 48px;
+
+    font-size: 22px;
+    line-height: 20px;
+  }
+}

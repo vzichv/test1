@@ -1,0 +1,44 @@
+.block {
+  width: 100%;
+  height: 81px;
+  padding: 0px 0 0;
+}
+
+.title {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 24px;
+
+  color: #575757;
+
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+    line-height: 136%;
+  }
+}
+
+.result {
+  margin: 12px 0 0;
+
+  font-family: 'Nekst';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 90%;
+
+  color: #575757;
+
+  @media screen and (max-width: 768px) {
+    margin: 14px 0 0;
+  }
+
+  @media screen and (max-width: 320px) {
+    margin: 3px 0 0;
+
+    font-size: 22px;
+    line-height: 20px;
+  }
+}

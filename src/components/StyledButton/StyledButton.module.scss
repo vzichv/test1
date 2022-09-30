@@ -1,0 +1,63 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 68px;
+  padding: 14px 0 18px;
+
+  background: #ff9514;
+
+  border-radius: 40px;
+  border: none;
+
+  font-family: "Nekst";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+
+  color: #ffffff;
+
+  cursor: pointer;
+  transition: 0.3s;
+
+  &.loading {
+    pointer-events: none;
+  }
+
+  .loader {
+    width: 48px;
+    height: 48px;
+    animation: rotation 1s linear infinite;
+  }
+
+  &:hover {
+    background-color: #111111;
+  }
+
+  &:active {
+    background-color: #575757;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: #ff951466;
+  }
+
+  @media screen and (max-width: 320px) {
+    height: 60px;
+    font-size: 22px;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
